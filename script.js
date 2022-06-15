@@ -54,8 +54,9 @@ subBtn.addEventListener('click', function () {
 
         if (tryLeftValue <= 0) {
             document.getElementById('tryLeft').innerText = tryLeftValue;
-            document.getElementById('submitBtn').classList.add('removeBtn'); s
+            document.getElementById('submitBtn').classList.add('removeBtn');
             document.getElementById('pinNotMatch').style.display = "none";
+            document.getElementById('pinMatch').style.display = 'none';
 
         } else {
             document.getElementById('tryLeft').innerText = tryLeftValue;
